@@ -3,6 +3,7 @@ import schemaTypes from 'all:part:@sanity/base/schema-type';
 import home from './home';
 import about from './about';
 import servicesSection from './servicesSection';
+import servicesSectionWithSubsections from './servicesSectionWithSubsections';
 import services from './services';
 import questionAndAnswer from './questionAndAnswer';
 import faq from './faq';
@@ -18,6 +19,7 @@ export default createSchema({
     home,
     about,
     servicesSection,
+    servicesSectionWithSubsections,
     services,
     questionAndAnswer,
     faq,

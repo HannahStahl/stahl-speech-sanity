@@ -12,6 +12,12 @@ export default {
     {
       title: "Section 2",
       name: "section2",
+      type: "servicesSectionWithSubsections",
+      validation: Rule => Rule.required(),
+    },
+    {
+      title: "Section 3",
+      name: "section3",
       type: "servicesSection",
       validation: Rule => Rule.required(),
     },
